@@ -1,0 +1,54 @@
+
+
+@media screen and (max-width: 768px) {
+    .carousel-caption {
+        position:relative;
+        top:-7px;
+        height:200px;
+    }
+
+    .pro{
+        position:relative;
+        top:-50px;
+    }
+    section.container{
+        position:relative;
+        top:-250px;
+    }
+  .course{
+      margin-top:-100px!important;
+    }
+    .contact-form{
+        display:block!important;
+    }
+    .form{
+        width: 100% !important;
+ }
+
+ .contact-img{
+    display:none;
+}
+.footer{
+    display:block!important;
+    padding: 80px !important;
+}
+   
+}
+
+
+
+
+@media screen and(max-width: 799px){
+    .owl-carousel {
+        display:flex;
+}
+}
+
+@media screen and(min-width:576px){
+    .owl-stage{
+        display:block;
+        margin-right:0;
+        flex:0 0 calc(100%/3);
+    }
+
+}

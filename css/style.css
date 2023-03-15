@@ -1,0 +1,210 @@
+/* navBar css  */
+a.navbar-brand{
+    width:200px;
+}
+.bg-body-tertiary.bg-body-tertiary {
+       border-top:4px solid #28ca8e!important;
+}
+a.nav-link{
+    color:#575757;
+      }
+li.nav-item .active{
+    background-color: #28ca8e;
+    height:50px;
+}
+
+.phone-svg{
+    background-color: #28ca8e;
+    border-radius: 70%;
+    padding:7px;
+ }
+.filter-phone-size{
+    filter: invert(150%) sepia(130%) saturate(150%) 
+    hue-rotate(180deg) brightness(98%) contrast(98%);
+    width:15px;
+    align-items: center;
+}
+p.tel{
+    margin-bottom: 0!important;
+}
+/* CTA slider image */
+.carousel-item{
+    height:500px;
+}
+.carousel-caption{
+    position:absolute!important;
+    top:150px;
+    left: 10% !important;
+    text-align: left!important;
+}
+
+.btn{
+    border-radius: 17px 17px 17px 17px!important;
+}
+
+
+/* teacher CSS */
+section.row.bg{
+    background-color:#f9f9f9!important;
+}
+.teacher-title{
+    text-align: center;
+}
+.teacher{
+    display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+	grid-gap:25px;
+	margin: 0px auto;
+	max-width: 1240px;
+	padding: 10px;
+}
+.teach{
+    padding: 10px;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+article.pro{
+    margin-top:100px;
+    margin-bottom:50px;
+    }
+.center{
+    margin:auto;
+}
+.card{
+    padding:10px;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    border: inherit !important;
+}
+
+.icon{
+    color:#24201f;
+}
+
+/* Popular Courses */
+section.courses{
+    background-color: #ffffff!important;
+    margin-top: 100px;
+    padding:100px 10px;
+}
+h3.course{
+    margin-top:50px;
+}
+.img-thumbnail{
+    border: inherit !important;
+}
+
+/* line */
+.line{
+    border-bottom: 4px solid #b3b1b1;
+}
+
+/* carousel CSS */
+.owl-carousel .owl-theme{
+    display: flex !important;
+}
+/* img.card-img-top{
+    width: 45px !important;
+} */
+.card.tst{
+    width:60px!important;
+    height:60px!important;
+    border-radius: 70%!important;
+    overflow: hidden!important;
+}
+.card-img-top.bm{
+width:100%!important;
+    height:100%!important;
+    object-fit:cover!important;
+}
+.carre{
+    background-color:#f9f9f9!important;
+    width:350px!important;
+    height:230px !important;
+   
+}
+.text-box{
+    padding:20px;
+    border-bottom:2px solid #d9d8d8;
+}
+.card-body.inline{
+    background:transparent;
+}
+.inline{
+    display: flex!important;
+    justify-content: space-between;
+    padding:20px;
+}
+.name{
+    line-height:50px;
+    margin-left:15px;
+}
+.btnt{
+    background-color: #4150b5;
+    border: inherit;
+    color:#ffffff;
+    height:40px;
+    margin-top:10px;
+    width:50px;
+}
+.btnS{
+    background-color:#28ca8e;
+    border: inherit;
+    color:#ffffff;
+    height:40px;
+    margin-top:10px;
+}
+/* Carousel CSS */
+.owl-theme .owl-dots .owl-dot {
+    background-color: transparent;
+ border:none;
+}
+
+
+/* Formulaire CSS */
+.contact-form{
+    display:flex!important;
+    justify-content: center;
+    background-color: #4150b5;
+    padding:60px;
+    margin-top: 80px !important;
+}
+.form{
+      width: 45% !important;
+}
+.contect-texte{
+    color:#ffffff;
+}
+.contact-img{
+    width:50% !important;
+}
+.form-control{
+    margin-bottom: 10px;
+    border-radius: 4px 4px 4px 4px;
+}
+.envoyer{
+    border-radius: 30px!important;
+    line-height:10px;
+    border:inherit;
+    padding:15px;
+}
+/* footer */
+.footer{
+    display:flex!important;
+    justify-content:space-between;
+    padding: 150px !important;
+    background-color: #24201f;
+
+    }
+.footer-textBox{
+    color:#ffffff;
+}
+.ft{
+    color:#909090;
+}
+
+
+/*responsive mobile*/
+@media screen and (max-width: 768px){
+    .teacher{
+       display:block;
+     }
+}
