@@ -39,23 +39,28 @@ http.onload = function () {
 
 // }
 
-
-//main
-// loadItems()
-// .then(socials => {
-//   console.log(socials);
-  // displayItems(items);
-// })
-// .catch(console.log);
-
 fetch('api/teacher.json')
 .then(res=>{
   return res.json();
 })
 .then(data => {
 data.forEach(teacher => {
-  const markup=`<li>${teacher.name}</li>`;
-  document.querySelector('ul').insertAdjacentHTML('beforeend',markup);
+  const markup=`
+  <div class="card">
+              <img src="./images/${teacher.image}" id="image" class="card-img-top" alt="...">
+            <h5 class="card-title">${teacher.name}</h5>
+             <p class="card-text">${teacher.description}</p>
+                     
+                     </div>
+         
+  `;
+  document.querySelector('.card-group')
+  .insertAdjacentHTML('beforeend',markup);
 })
 });
 
+
+
+  //  <a href="#" class="card-link"><i class="fa-brands fa-facebook icon"></i></a>
+            //  <a href="#" class="card-link"> <i class="fa-brands fa-twitter icon"></i></a>
+            //  <a href="#" class="card-link"> <i class="fa-brands fa-instagram icon"></i></a>
