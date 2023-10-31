@@ -29,7 +29,7 @@ http.onload = function () {
 };
 */
 
-fetch('api/teacher.json')
+fetch('./api/teacher.json')
 .then(res=>{
   return res.json();
 })
