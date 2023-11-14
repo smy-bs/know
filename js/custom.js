@@ -1,3 +1,4 @@
+// appel API
 fetch('./api/teacher.json')
 .then(res=>{
   return res.json();
@@ -29,4 +30,15 @@ data.forEach(teacher => {
 })
 });
 
+// Toggle menu
+
+let navbarMenu = document.querySelector('.navbar-collapse');
+let ToggleMenu = document.querySelector('.toggle');
+ToggleMenu.addEventListener('click',()=>{
+ navbarMenu.classList.toggle('open');
+})
+
+navbarMenu.addEventListener('click',()=>{
+  navbarMenu.classList.remove('open');
+ })
 
