@@ -1,9 +1,10 @@
-#Entraînement
+# Entraînement
 
-json data call with fetch in JS
-HTML,CSS / (Bootstrap)
+## Technologies utilisées :
+* json data call with fetch in JS
+* HTML,CSS / (Bootstrap)
 
-
+## Fonctionnalités :
  - Chargement des données API/JSON à l'aide de la fonction fetch de JavaScript et affichage >dans l'interface utilisateur (UI).
 
 - Utilisation de Bootstrap pour gagner du temps.
@@ -11,4 +12,4 @@ HTML,CSS / (Bootstrap)
 - Utilisation d'un curseur jQuery.
 - Conception responsive.
 
-[Demo site](https://smy-bs.github.io/know/)
+* [Demo site](https://smy-bs.github.io/know/)
