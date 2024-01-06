@@ -1,13 +1,17 @@
+body{
+    margin:0;
+    padding:0;
+}
 /* navBar css  */
 a.navbar-brand{
     width:200px;
 }
 .bg-body-tertiary.bg-body-tertiary {
-       border-top:4px solid #28ca8e!important;
+border-top:4px solid #28ca8e!important;
 }
 a.nav-link{
     color:#575757;
-      }
+    }
 li.nav-item .active{
     background-color: #28ca8e;
     height:50px;
@@ -18,7 +22,7 @@ li.nav-item .active{
     border-radius: 50%;
     padding:10px;
     margin-right: 15px;
- }
+}
 .filter-phone-size{
     filter: invert(150%) sepia(130%) saturate(150%) 
     hue-rotate(180deg) brightness(98%) contrast(98%);
@@ -167,18 +171,20 @@ width:100%!important;
 }
 /* Carousel CSS */
 .owl-theme .owl-dots .owl-dot {
-    background-color: transparent;
+        background-color: transparent;
  border:none;
 }
 
 
 /* Formulaire CSS */
+
 .contact-form{
     display:flex!important;
     justify-content: center;
     background-color: #4150b5;
     padding:60px;
     margin-top: 80px !important;
+    box-sizing:none!important;
 }
 .form{
       width: 45% !important;
@@ -258,7 +264,11 @@ width:100%!important;
         display:block;
         width: 100%;
         border-bottom: 1px solid #595858;
-
     }
-        
+    .courses{
+        margin-top: 180px !important;;
+        margin-bottom:-150px;
+    }
+  
+         
      }
